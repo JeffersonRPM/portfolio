@@ -1,0 +1,80 @@
+@media all and (max-width: 780px) {
+    h1 {
+        font-size: 2.8rem !important;
+    }
+    
+    h2 {
+        font-size: 1.13rem !important;
+    }
+
+    .margin-h1 {
+        margin-left: 35px;
+    }
+        
+    .margin-h2 {
+        margin-left: 37px;
+    }
+
+    .logos-home {
+        width: 6% !important;
+        height: 6% !important;
+        margin-left: 10px;
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .logos-home:hover {
+        transform: translateY(-5px);
+        filter: invert(100%);
+    }
+    
+    .ajuste-logo {
+        margin-right: 40px;
+    }   
+
+    p {
+        font-size: 1.1rem !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+    }
+    
+    strong p {
+        font-size: 1.3rem !important;
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 900;
+        text-transform: uppercase !important;
+    }
+}
+
+@media all and (min-width: 781px) and (max-width: 1400px) {
+    h1 {
+        font-size: 5.3rem !important;
+    }
+    
+    h2 {
+        font-size: 2.12rem !important;
+    }
+
+    .margin-h1 {
+        margin-left: 70px;
+    }
+        
+    .margin-h2 {
+        margin-left: 72px;
+    }
+
+    .logos-home {
+        width: 6% !important;
+        height: 6% !important;
+        margin-left: 10px;
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .logos-home:hover {
+        transform: translateY(-7px);
+        filter: invert(100%);
+    }
+    
+    .ajuste-logo {
+        margin-right: 75px;
+    }   
+}
