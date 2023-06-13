@@ -76,9 +76,8 @@ strong p {
 }
 
 .ajuste-logo {
-    margin-right: 120px;
+    margin-right: 10%;
 }
-
 
 .animacao-home {
     animation: animacao 2s steps(40);

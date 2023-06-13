@@ -28,8 +28,8 @@
     }
     
     .ajuste-logo {
-        margin-right: 40px;
-    }   
+        margin-right: 10%;
+    }
 
     p {
         font-size: 1.1rem !important;
@@ -42,6 +42,17 @@
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 900;
         text-transform: uppercase !important;
+    }
+
+    .logo-projeto {
+        width: 8% !important;
+        height: 8% !important;
+        margin-left: 15px;
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+    
+    .logo-projeto:hover {
+        filter: invert(100%);
     }
 }
 
@@ -72,9 +83,9 @@
     .logos-home:hover {
         transform: translateY(-7px);
         filter: invert(100%);
-    }
+    } 
     
     .ajuste-logo {
-        margin-right: 75px;
-    }   
+        margin-right: 10%;
+    }
 }
