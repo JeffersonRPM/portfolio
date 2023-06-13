@@ -5,7 +5,15 @@ setTimeout(function () {
 setTimeout(function () {
     var targetAnchor = document.getElementById("section3");
     targetAnchor.scrollIntoView({ behavior: 'smooth' });
+}, 7500);
+setTimeout(function () {
+    var targetAnchor = document.getElementById("section4");
+    targetAnchor.scrollIntoView({ behavior: 'smooth' });
 }, 10000);
+setTimeout(function () {
+    var targetAnchor = document.getElementById("section5");
+    targetAnchor.scrollIntoView({ behavior: 'smooth' });
+}, 12500);
 setTimeout(function () {
     var targetAnchor = document.getElementById("section1");
     targetAnchor.scrollIntoView({ behavior: 'smooth' });
