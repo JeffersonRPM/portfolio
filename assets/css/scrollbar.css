@@ -1,3 +1,8 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: darkgray white;
+}
+
 ::-webkit-scrollbar {
     width: 0.5rem;
 }
