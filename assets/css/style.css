@@ -39,6 +39,7 @@ p {
     font-size: 1.4rem !important;
     font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase !important;
+    margin-bottom: 2px !important;
 }
 
 strong p {
