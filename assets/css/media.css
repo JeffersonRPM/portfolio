@@ -283,7 +283,7 @@
         transition: transform 0.3s ease, filter 0.3s ease;
     }
     
-    .logo-projeto:hover {
+    div#img-home img {
         filter: invert(100%);
     }
 }
