@@ -40,7 +40,7 @@ p {
     font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase !important;
     margin-bottom: 2px !important;
-    color: black;
+    color: white;
 }
 
 strong p {
@@ -74,6 +74,10 @@ strong p {
 
 .logos-home:hover {
     transform: translateY(-10px);
+    filter: none !important;
+}
+
+div#img-home img {
     filter: invert(100%);
 }
 
@@ -110,8 +114,9 @@ strong p {
     height: 4% !important;
     margin-left: 15px;
     transition: transform 0.3s ease, filter 0.3s ease;
+    filter: invert(100%);
 }
 
 .logo-projeto:hover {
-    filter: invert(100%);
+    filter: none;
 }
