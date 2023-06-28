@@ -1,4 +1,62 @@
-@media all and (max-width: 359px) {
+@media all and (max-width: 299px) {
+    h1 {
+        font-size: 1.3rem !important;
+    }
+    
+    h2 {
+        font-size: 0.4rem !important;
+    }
+
+    .margin-h1 {
+        margin-left: 35px;
+    }       
+        
+    .margin-h2 {
+        margin-left: 37px;
+    }
+
+    .logos-home {
+        width: 6% !important;
+        height: 6% !important;
+        margin-left: 10px;
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .logos-home:hover {
+        transform: translateY(-5px);
+        filter: invert(100%);
+    }
+    
+    .ajuste-logo {
+        margin-right: 10%;
+    }
+
+    p {
+        font-size: 1.1rem !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+    }
+    
+    strong p {
+        font-size: 1.3rem !important;
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 900;
+        text-transform: uppercase !important;
+    }
+
+    .logo-projeto {
+        width: 8% !important;
+        height: 8% !important;
+        margin-left: 15px;
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+    
+    .logo-projeto:hover {
+        filter: invert(100%);
+    }
+}
+
+@media all and (min-width: 300px) and (max-width: 359px) {
     h1 {
         font-size: 2.0rem !important;
     }
