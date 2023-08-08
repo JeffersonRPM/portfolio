@@ -68,7 +68,7 @@ strong p {
 .logos-home {
     width: 4% !important;
     height: 4% !important;
-    margin-left: 15px;
+    margin: 0 10px;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
@@ -112,7 +112,7 @@ div#img-home img {
 .logo-projeto {
     width: 4% !important;
     height: 4% !important;
-    margin-left: 15px;
+    margin: 0 10px;
     transition: transform 0.3s ease, filter 0.3s ease;
     filter: invert(100%);
 }

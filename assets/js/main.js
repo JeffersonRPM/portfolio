@@ -43,3 +43,40 @@ if (window.innerWidth < 992) {
         targetAnchor.scrollIntoView({ behavior: 'smooth' });
     }, 15000);
 }
+
+function updateDivClass() {
+    const div = document.getElementById('img-home');
+    const h1 = document.getElementById('h1-intro');
+    const h2 = document.getElementById('h2-intro');
+    const git = document.getElementById('git-logo');
+
+    if (window.innerWidth > 1199) {
+        div.classList.remove('justify-content-center');
+        div.classList.add('justify-content-end');
+
+        h1.classList.remove('text-center');
+        h1.classList.add('margin-h1');
+
+        h2.classList.remove('text-center');
+        h2.classList.add('margin-h2');
+
+        git.classList.add('ajuste-logo');
+
+    } else {
+        div.classList.remove('justify-content-end');
+        div.classList.add('justify-content-center');
+
+        h1.classList.remove('margin-h1');
+        h1.classList.add('text-center');
+
+        h2.classList.remove('margin-h2');
+        h2.classList.add('text-center');
+
+        git.classList.remove('ajuste-logo');
+    }
+}
+
+window.addEventListener('load', updateDivClass);
+
+window.addEventListener('resize', updateDivClass);
+
