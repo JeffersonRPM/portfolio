@@ -55,11 +55,6 @@ strong p {
     height: 100% !important;
 }
 
-.degrade-home {
-    background: rgba(9, 70, 121, 1);
-    background: radial-gradient(circle, rgba(9, 70, 121, 1) 0%, rgba(2, 0, 36, 1) 100%);
-}
-
 .no-gutters {
     margin: 0 !important;
     padding: 0 !important;
