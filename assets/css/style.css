@@ -70,6 +70,7 @@ strong p {
 .logos-home:hover {
     transform: translateY(-10px);
     filter: none !important;
+    cursor: pointer;
 }
 
 div#img-home img {
@@ -95,12 +96,10 @@ div#img-home img {
 }
 
 .degrade-page1 {
-    background: rgb(9, 70, 121);
     background: linear-gradient(180deg, rgba(9, 70, 121, 1) 35%, rgba(90, 212, 255, 1) 100%);
 }
 
-.degrade-page2 {
-    background: rgb(9, 70, 121);
+.degrade-page2 { 
     background: linear-gradient(360deg, rgba(9, 70, 121, 1) 35%, rgba(90, 212, 255, 1) 100%);
 }
 
@@ -114,4 +113,5 @@ div#img-home img {
 
 .logo-projeto:hover {
     filter: none;
+    cursor: pointer;
 }
